@@ -1,0 +1,94 @@
+{
+    "Carreras": [
+        {
+            "Nombre": "Administraci\u00f3n de Empresas",
+            "Modalidad": [
+                "Abierta y a Distancia",
+                "Presencial"
+            ],
+            "Descripcion": [
+                "Formamos profesionales competentes, l\u00edderes humanistas y emprendedores en el \u00e1rea de las ciencias administrativas y empresariales.",
+                "Contamos con excelencia acad\u00e9mica que permite identificar, comprender y solventar la problem\u00e1tica que surge dentro de las organizaciones y su entorno.",
+                "Trabajamos bajo una filosof\u00eda institucional que potencia la innovaci\u00f3n y el emprendimiento desde la academia con iniciativas transformadoras."
+            ],
+            "Titulo": "Licenciado/a en Administraci\u00f3n de Empresas",
+            "Duracion": "4 A\u00f1os",
+            "Director de la Carrera": "Julio Alberto R\u00edos Zaruma"
+        },
+        {
+            "Nombre": "Arquitectura",
+            "Modalidad": "Presencial",
+            "Descripcion": [
+                "Formamos profesionales competentes, l\u00edderes humanistas y emprendedores en el \u00e1rea de las ciencias administrativas y empresariales.",
+                "Contamos con excelencia acad\u00e9mica que permite identificar, comprender y solventar la problem\u00e1tica que surge dentro de las organizaciones y su entorno.",
+                "Trabajos a trav\u00e9s de escenarios de aprendizaje con metodolog\u00edas de ense\u00f1anza din\u00e1micas e innovadoras y una infraestructura de vanguardia que te permite la experimentaci\u00f3n pr\u00e1ctica.",
+                "Nuestra carrera contribuye al desarrollo de una postura cr\u00edtica en los profesionales, capaces de solucionar problemas espaciales; fomentar una arquitectura con identidad propia, considerando la riqueza hist\u00f3rica-cultural de Am\u00e9rica Latina; e investigar sobre materiales de construcci\u00f3n id\u00f3neos para manejarlos con criterios de racionalidad social, econ\u00f3mica y sustentable."
+            ],
+            "Titulo": "Arquitecto",
+            "Duracion": "4 a\u00f1os y medio",
+            "Director de la Carrera": "Xavier Eduardo Burneo Valdivieso"
+        },
+        {
+            "Nombre": "Medicina",
+            "Modalidad": "Presencial",
+            "Descripcion": [
+                "Formamos m\u00e9dicos generales con s\u00f3lidas competencias acad\u00e9micas, con una visi\u00f3n integral del proceso salud-enfermedad desde la perspectiva de la Atenci\u00f3n Primaria de Salud y basados en los principios \u00e9ticos de la profesi\u00f3n m\u00e9dica para que sean capaces de contribuir al bienestar integral de la persona, la familia y la comunidad.",
+                "La Medicina es el \u00e1rea encargada de identificar y resolver los problemas de salud m\u00e1s frecuentes de la persona y el entorno.",
+                "Capacitamos a los futuros profesionales para que, basados en la investigaci\u00f3n y el an\u00e1lisis de la realidad epidemiol\u00f3gica, se constituyan en gestores activos de la transformaci\u00f3n de la realidad de la salud a nivel internacional, respondiendo a las necesidades del Sistema Nacional de Salud en Ecuador."
+            ],
+            "Titulo": "M\u00e9dico",
+            "Duracion": "6 a\u00f1os",
+            "Directora de la Carrera": "Dra. Mar\u00eda Irene Carrillo Mayanquer"
+        },
+        {
+            "Nombre": "Enfermer\u00eda",
+            "Modalidad": "Presencial",
+            "Descripcion": [
+                "Formamos profesionales de enfermer\u00eda proactivas, innovadoras, con autonom\u00eda, con valores \u00e9ticos y morales y responsabilidad social; capaces de ejercer la profesi\u00f3n con las competencias necesarias para brindar cuidados integrales de enfermer\u00eda a la persona, familia y comunidad y en los diferentes ciclos de vida.",
+                "Utilizamos la investigaci\u00f3n, la comunicaci\u00f3n y las relaciones humanas, como aporte a la soluci\u00f3n de la problem\u00e1tica actual de salud, adem\u00e1s capaces de administrar y gestionar los servicios de salud.",
+                "Trabajamos en concordancia con los objetivos del desarrollo sustentable y el PNBV, promoviendo as\u00ed el mejoramiento de la calidad de vida de la poblaci\u00f3n al considerar la humanizaci\u00f3n del cuidado como eje transversal en su accionar."
+            ],
+            "Titulo": "Licenciado/a en Enfermer\u00eda",
+            "Duracion": "4 a\u00f1os y medio",
+            "Directora de la Carrera": "Dra. Mar\u00eda Irene Carrillo Mayanquer"
+        },
+        {
+            "Nombre": "Turismo",
+            "Modalidad": "Abierta y a Distancia",
+            "Descripcion": [
+                "Formamos profesionales capaces de analizar los problemas, tensiones y tendencias de los actores involucrados en el quehacer tur\u00edstico.",
+                "Aplicamos modelos estrat\u00e9gicos de planificaci\u00f3n, gesti\u00f3n e innovaci\u00f3n tur\u00edstica que permiten promover el desarrollo sostenible.",
+                "Trabajamos en la preservaci\u00f3n del patrimonio natural y cultural, la participaci\u00f3n activa de la poblaci\u00f3n, la generaci\u00f3n de emprendimientos, la equidad y la eficiencia econ\u00f3mica del territorio. "
+            ],
+            "Titulo": "Licenciado/a en Turismo",
+            "Duracion": "4 A\u00f1os",
+            "Director de la Carrera": "Christian Stalin Vi\u00f1\u00e1n Merec\u00ed"
+        },
+        {
+            "Nombre": "Derecho",
+            "Modalidad": [
+                "Abierta y a Distancia",
+                "Presencial"
+            ],
+            "Descripcion": [
+                "Formamos profesionales capaces de dise\u00f1ar, planificar y generar procesos de intervenci\u00f3n e innovaci\u00f3n social en el campo jur\u00eddico.",
+                "Preparamos para que incorporen en el ejercicio profesional los aportes disciplinarios e interdisciplinarios sobre el derecho, los saberes jur\u00eddicos globales y locales, las tradiciones dogm\u00e1ticas y jurisprudenciales sobre el sistema jur\u00eddico ecuatoriano, y los valores propios del Estado constitucional de derechos y justicia.",
+                "Las capacidades te\u00f3ricas y t\u00e9cnicas que se potencian en nuestra carrera, logran que nuestros profesionales apliquen, con justicia y equidad, los principios generales del derecho y del ordenamiento jur\u00eddico; al tiempo que relacionen los fen\u00f3menos pol\u00edticos, econ\u00f3micos y sociales con la aplicaci\u00f3n del derecho."
+            ],
+            "Titulo": "Abogado/a",
+            "Duracion": "4 A\u00f1os",
+            "Director de la Carrera": "Jorge Alberto Maldonado Ord\u00f3\u00f1ez"
+        },
+        {
+            "Nombre": "Ingenier\u00eda Civil",
+            "Modalidad": "Presencial",
+            "Descripcion": [
+                "Formamos profesionales que brinden soluciones mediante el an\u00e1lisis, dise\u00f1o, implementaci\u00f3n, evaluaci\u00f3n y control de proyectos de infraestructura civil.",
+                "Formamos profesionales que brinden soluciones mediante el an\u00e1lisis, dise\u00f1o, implementaci\u00f3n, evaluaci\u00f3n y control de proyectos de infraestructura civil."
+            ],
+            "Titulo": "Ingeniero/a Civil",
+            "Duracion": "4 a\u00f1os y medio",
+            "Director de la Carrera": "Belizario Amador Z\u00e1rate Torres"
+        }
+    ]
+}

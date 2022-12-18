@@ -1,0 +1,61 @@
+export OPENAI_API_KEY = "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"
+
+openai tools fine_tunes.prepare_data -f train-data.json
+
+openai api fine_tunes.create -t train-data_prepared.jsonl -m davinci
+
+openai api fine_tunes.follow -i <YOUR_FINE_TUNE_JOB_ID>
+
+davinci:ft-liid-utpl-2022-12-17-13-35-30
+davinci:ft-liid-utpl-2022-12-18-03-08-15
+
+
+file: file-2tifS9yz1hBkT36W5Uv7iMEs
+
+openai api completions.create -m davinci:ft-liid-utpl-2022-12-17-13-35-30 -p "suficiente, deja de responder tonteras"
+openai api models.delete -i davinci:ft-liid-utpl-2022-12-17-13-35-30
+"Dime los departamentos de la utpl \n\n###\n\n"
+
+"sabes quien es maria del rosario? \n\n###\n\n"
+
+
+openai api completions.create -m curie:ft-liid-utpl-2022-12-18-03-22-25 -p "sabes quien es maria del rosario? \n\n###\n\n"
+openai api models.delete -i curie:ft-liid-utpl-2022-12-18-03-22-25
+openai api completions.create -m curie:ft-liid-utpl-2022-12-18-03-25-44 -p "Dime los departamentos de la utpl \n\n###\n\n"
+openai api models.delete -i curie:ft-liid-utpl-2022-12-18-03-25-44
+openai api completions.create -m davinci:ft-liid-utpl-2022-12-18-03-59-01 -p "sabes quien es maria del rosario? \n\n###\n\n"
+openai api models.delete -i davinci:ft-liid-utpl-2022-12-18-03-59-01
+
+openai api fine_tunes.results -i "davinci_1"
+
+curl https://api.openai.com/v1/fine-tunes \
+  -X POST \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer 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" \
+  -d '{
+  "training_file": "train-data_prepared_1.jsonl"
+}'
+
+curl https://api.openai.com/v1/completions \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer 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' \
+  -d '{
+  "model": "davinci_1",
+  "prompt": "Departamentos utpl",
+  "max_tokens": 7,
+  "temperature": 0
+}'
+
+openai api fine_tunes.create -t train-data_prepared.jsonl -m davinci --suffix "dav_liid"
+
+# For multiclass classification
+openai api fine_tunes.create \
+  -t <TRAIN_FILE_ID_OR_PATH> \
+  -v <VALIDATION_FILE_OR_PATH> \
+  -m <MODEL> \
+  --compute_classification_metrics \
+  --classification_n_classes <N_CLASSES>
+
+
+
+openai api completions.create -m curie:ft-liid-utpl-2022-12-18-15-02-54 -p "Tell me about Paradise Towers"
